@@ -8,6 +8,10 @@ It works for **non-watertight** meshes (meshes with holes), **self-intersecting*
 ```
 pip3 install mesh-to-sdf
 ```
+or locally
+```
+python setup.py install
+```
 
 If you're using Windows or Mac, you need to work around a bug in pyrender.
 Check the FAQs below.
